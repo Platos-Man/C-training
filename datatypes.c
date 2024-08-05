@@ -8,10 +8,10 @@ int main(){
     unsigned short int b = 65535; // 2 bytes (0 to 65535) %hu
     printf("unsigned short int %hu\n", b);
 
-    int c = 2147483647; // 4 bytes (-2,147,483,648 to 2,147,483,647) %d
+    int c = 2147483647; // 4 bytes (-2,147,483,648 to 2,147,483,647) %d | int == long int
     printf("int %d\n", c);
 
-    unsigned int d = 4294967295; // 4 bytes (0 to 4,294,967,295) %u
+    unsigned int d = 4294967295; // 4 bytes (0 to 4,294,967,295) %u | unsigned int == unsigned long int
     printf("unsigned int %u\n", d);
 
     long long int e = 9223372036854775807; // 8 bytes (-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807) %lld
